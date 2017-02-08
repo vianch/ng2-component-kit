@@ -3,6 +3,7 @@ import { NgModule } from "@angular/core";
 import {AppComponent} from "./app.component";
 import {CoreModule} from "./core/";
 import {SharedModule} from "./shared/";
+import {ColorComponent} from "./color/color.component";
 
 @NgModule({
     imports: [
@@ -11,6 +12,7 @@ import {SharedModule} from "./shared/";
     ],
     declarations: [
         AppComponent,
+        ColorComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],

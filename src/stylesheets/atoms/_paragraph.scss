@@ -1,0 +1,9 @@
+p {
+  @include font-size(12px);
+  margin-bottom: 10px;
+  line-height: 17px;
+}
+
+small {
+  @include font-size(11px);
+}

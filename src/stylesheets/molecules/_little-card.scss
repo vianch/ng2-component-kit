@@ -1,0 +1,130 @@
+.little-card-container {
+
+  .little-card {
+    padding: 10px;
+
+    // radius corners
+    $border-radius: 3px;
+    &.top {
+      -webkit-border-top-left-radius: $border-radius;
+      -webkit-border-top-right-radius: $border-radius;
+      -moz-border-radius-topleft: $border-radius;
+      -moz-border-radius-topright: $border-radius;
+      border-top-left-radius: $border-radius;
+      border-top-right-radius: $border-radius;
+    }
+    &.bottom {
+      -webkit-border-bottom-right-radius: $border-radius;
+      -webkit-border-bottom-left-radius: $border-radius;
+      -moz-border-radius-bottomright: $border-radius;
+      -moz-border-radius-bottomleft: $border-radius;
+      border-bottom-right-radius: $border-radius;
+      border-bottom-left-radius: $border-radius;
+    }
+    &.single {
+      border-radius: $border-radius;
+    }
+
+    //colors
+    &.blue {
+      background: $color-blue;
+      color: $white-87-opacity;
+    }
+    &.green {
+      background: $color-green;
+      color: $white-87-opacity;
+    }
+    &.yellow {
+      background: $color-yellow;
+      color: $white-87-opacity;
+    }
+    &.low-yellow {
+      background: $color-low-yellow;
+    }
+    &.red {
+      background: $color-red;
+      color: $white-87-opacity;
+    }
+    &.blue-gray-50 {
+      background: get-color($md-blue-grey, 50);
+      color: get-contrast($md-blue-grey, 50);
+    }
+    &.blue-gray-100 {
+      background: get-color($md-blue-grey, 100);
+      color: get-contrast($md-blue-grey, 100);
+    }
+    &.blue-gray-200 {
+      background: get-color($md-blue-grey, 200);
+      color: get-contrast($md-blue-grey, 200);
+    }
+    &.blue-gray-300 {
+      background: get-color($md-blue-grey, 300);
+      color: get-contrast($md-blue-grey, 300);
+    }
+    &.blue-gray-400 {
+      background: get-color($md-blue-grey, 400);
+      color: get-contrast($md-blue-grey, 400);
+    }
+    &.blue-gray-500 {
+      background: get-color($md-blue-grey, 500);
+      color: get-contrast($md-blue-grey, 500);
+    }
+    &.blue-gray-600 {
+      background: get-color($md-blue-grey, 600);
+      color: get-contrast($md-blue-grey, 600);
+    }
+    &.blue-gray-700 {
+      background: get-color($md-blue-grey, 700);
+      color: get-contrast($md-blue-grey, 700);
+    }
+    &.blue-gray-800 {
+      background: get-color($md-blue-grey, 800);
+      color: get-contrast($md-blue-grey, 800);
+    }
+    &.blue-gray-900 {
+      background: get-color($md-blue-grey, 900);
+      color: get-contrast($md-blue-grey, 900);
+    }
+
+    &.gray-50 {
+      background: get-color($md-grey, 50);
+      color: get-contrast($md-grey, 50);
+    }
+    &.gray-100 {
+      background: get-color($md-grey, 100);
+      color: get-contrast($md-grey, 100);
+    }
+    &.gray-200 {
+      background: get-color($md-grey, 200);
+      color: get-contrast($md-grey, 200);
+    }
+    &.gray-300 {
+      background: get-color($md-grey, 300);
+      color: get-contrast($md-grey, 300);
+    }
+    &.gray-400 {
+      background: get-color($md-grey, 400);
+      color: get-contrast($md-grey, 400);
+    }
+    &.gray-500 {
+      background: get-color($md-grey, 500);
+      color: get-contrast($md-grey, 500);
+    }
+    &.gray-600 {
+      background: get-color($md-grey, 600);
+      color: get-contrast($md-grey, 600);
+    }
+    &.gray-700 {
+      background: get-color($md-grey, 700);
+      color: get-contrast($md-grey, 700);
+    }
+    &.gray-800 {
+      background: get-color($md-grey, 800);
+      color: get-contrast($md-grey, 800);
+    }
+    &.gray-900 {
+      background: get-color($md-grey, 900);
+      color: get-contrast($md-grey, 900);
+    }
+  }
+}
