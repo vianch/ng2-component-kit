@@ -10,7 +10,12 @@ import { Component } from "@angular/core";
 
 @Component({
     selector: "ng2-app",
-    template: `<ng2-color></ng2-color>`,
+    template: `
+        <div class="container">
+            <ng2-text></ng2-text>
+            <ng2-color></ng2-color>
+            <ng2-tag></ng2-tag>
+        </div>`,
 })
 export class AppComponent  {
     
