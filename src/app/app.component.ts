@@ -15,6 +15,7 @@ import { Component } from "@angular/core";
             <ng2-text></ng2-text>
             <ng2-color></ng2-color>
             <ng2-tag></ng2-tag>
+            <ng2-card></ng2-card>
         </div>`,
 })
 export class AppComponent  {
